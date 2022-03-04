@@ -2,7 +2,7 @@
 
 # assign variable to date
 
-date=  %Y%m%d
+date_time=$(date"+%Y.%m.%d-%H:%M:%S")
 
-echo date
+echo "$date_time"
 
